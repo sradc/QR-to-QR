@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "QR-to-QR",
+    "slug": "QR-to-QR",
+    "version": "0.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f0eed6"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#f0eed6"
+    },
+    "androidNavigationBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#f0eed6"
+    },
+    "updates": {
+      "enabled": false,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.sidneyradcliffe.qrtoqr",
+      "versionCode": 2,
+      "permissions": [
+        "CAMERA"
+      ]
+    }
+  }
+}
